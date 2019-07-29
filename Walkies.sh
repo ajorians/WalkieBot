@@ -24,7 +24,7 @@ postwalkiemessage () {
 
    local exactmessage="$message"
 
-   local postdata="{\"event\":\"message\",\"external_user_name\":\"BillWaterson\",\"content\":\"$exactmessage\"}"
+   local postdata="{\"event\":\"message\",\"external_user_name\":\"BillWatterson\",\"content\":\"$exactmessage\"}"
 
 
 local result=$(curl --header "Content-Type: application/json" \
